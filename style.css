@@ -1,0 +1,19 @@
+.img-responsive{
+    width: 100%;
+}
+
+#contenedor .slide img{
+    display: none;
+    transition: 4s all;
+}
+
+#contenedor .slide img.active{
+    display: block;
+}
+
+#ant, #sgt {
+    padding: 10px 15px;
+    background-color: #44dd00;
+    font-weight: 800;
+    border-radius: 5px;
+}
